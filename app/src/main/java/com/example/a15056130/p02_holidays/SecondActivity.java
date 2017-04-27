@@ -25,7 +25,7 @@ public class SecondActivity extends AppCompatActivity {
         tvType = (TextView) findViewById(R.id.tvType);
 
         Intent i = getIntent();
-        String type = i.getStringExtra("type");
+        String type = i.getStringExtra("Type");
         tvType.setText(type);
 
         holidays = new ArrayList<Holiday>();

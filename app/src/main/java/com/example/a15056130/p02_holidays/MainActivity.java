@@ -16,12 +16,15 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<String> al;
     ArrayAdapter<String> aa;
 
+    TextView tv;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        lvType = (ListView)this.findViewById(R.id.lvType);
+        lvType = (ListView)findViewById(R.id.lvType);
+        tv = (TextView)findViewById(R.id.tv);
 
         al = new ArrayList<String>();
         al.add("Secular");
