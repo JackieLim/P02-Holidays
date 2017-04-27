@@ -13,11 +13,10 @@
         android:layout_height="wrap_content"
         android:text="Types of public holidays in SG"
         android:id="@+id/tv"
-        android:textSize="30sp"/>
+        android:textSize="25sp"/>
     <ListView
         android:id="@+id/lvType"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 
 </LinearLayout>

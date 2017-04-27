@@ -8,4 +8,14 @@
     android:orientation="vertical"
     tools:context="com.example.a15056130.p02_holidays.SecondActivity">
 
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"/>
+
+    <ListView
+        android:id="@+id/lvHol"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

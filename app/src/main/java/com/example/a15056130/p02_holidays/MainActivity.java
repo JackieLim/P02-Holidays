@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String type = al.get(position).toString();
                 Intent i = new Intent(MainActivity.this, SecondActivity.class);
-                i.putExtra("",type);
+                i.putExtra("Type",type);
                 startActivity(i);
             }
         });
