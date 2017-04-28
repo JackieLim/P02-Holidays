@@ -35,8 +35,15 @@ public class SecondActivity extends AppCompatActivity {
         if (type.equalsIgnoreCase("Secular")){
             holidays.add(new Holiday("New Year's Day", "1 Jan 2017",R.drawable.newyear ));
             holidays.add(new Holiday("Labour Day", "1 May 2017",R.drawable.labourday ));
+            holidays.add(new Holiday("National Day", "9 August 2017", R.drawable.nationalday));
         } else {
             holidays.add(new Holiday("Chinese New Year", "28 - 29 January 2017", R.drawable.cny));
+            holidays.add(new Holiday("Good Friday", "14 April 2017", R.drawable.goodfriday));
+            holidays.add(new Holiday("Vesak Day", "10 May 2017", R.drawable.vesakday));
+            holidays.add(new Holiday("Hari Raya Puasa","25 June 2017", R.drawable.harirayapuasa));
+            holidays.add(new Holiday("Hari Raya Haji", "1 September 2017", R.drawable.harirayahaji));
+            holidays.add(new Holiday("Deepavali", "18 October 2017", R.drawable.deepavali));
+            holidays.add(new Holiday("Christmas Day", "25 December 2017", R.drawable.christmas));
         }
 
 
